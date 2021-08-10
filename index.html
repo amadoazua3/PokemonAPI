@@ -4,15 +4,16 @@
         <meta charset="UTF-8">
         <title>Pokemon Generator</title>
     </head>
-    <body>
+    <body class="container justify-content-center text-center">
         <h1 style="text-align: center">Gotta Catch 'Em All</h1>
 
         <div class="flex-parent" style="display: flex">
-            <button type="submit" style="margin-left: auto; margin-right: auto">I Choose You!</button>
+            <button type="submit" style="margin-left: auto; margin-right: auto" onclick="getPoke()">I Choose You!</button>
         </div>
 
-    </body>
-    <script src="app.js">
+        <div id="pokemon-container" class="row d-flex"></div>
 
-    </script>
+    </body>
+    <script src="app.js"></script>
+
 </html>
